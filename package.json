@@ -1,0 +1,30 @@
+{
+  "name": "end-through",
+  "version": "0.0.0",
+  "description": "even simpler stream construction",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "lsc -c index.ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quarterto/end-through.git"
+  },
+  "keywords": [
+    "through",
+    "stream",
+    "livescript",
+    "callback"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/end-through/issues"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "LiveScript": "~1.2.0"
+  }
+}
